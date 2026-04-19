@@ -1,0 +1,57 @@
+# Virtual environment
+heart_risk_env/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Outputs (generated artifacts — keep folder structure, ignore contents)
+outputs/models/*
+outputs/figures/*
+outputs/metrics/*
+outputs/reports/*
+!outputs/models/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/reports/.gitkeep
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# pytest
+.pytest_cache/
+.cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / env files
+.env
+.env.*
+*.pem
+*.key
